@@ -8,7 +8,7 @@
     "comma-dangle": "off",
     "@typescript-eslint/comma-dangle": "error"
   },
-  "ignorePatterns": ["tailwind.config.js", "commitlint.config.ts","vite.config.ts"],
+  "ignorePatterns": ["tailwind.config.js", "commitlint.config.cjs","vite.config.ts"],
   "parserOptions": {
     "project": "./tsconfig.eslint.json"
   }
