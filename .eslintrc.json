@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb", "airbnb-typescript"],
+  "globals": {
+    "React": "readonly"
+  },
+  "rules": {
+    "no-unused-vars": [1, { "args": "after-used", "argsIgnorePattern": "^_" }],
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": "error"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.eslint.json"
+  }
+}
